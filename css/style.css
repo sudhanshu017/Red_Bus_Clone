@@ -1,0 +1,1155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    width: 1540px;
+    height: 100px;
+   
+   
+}
+
+.header_container{
+    width: 1250px;
+    height: 100%;
+    position: sticky;
+    margin: auto;
+    display: flex   ;
+}
+
+.container_left{
+    width: 620px;
+    height: 100px;
+    display: flex;
+    
+}
+
+.logo{
+    width: 70px;
+    height: 50px;
+    margin-top: 15px;
+   
+}
+.bus_rail_btn{
+    width: 310px;
+    height:100%;
+    margin-left: 65px;
+    display: flex;
+}
+
+.bus_ticket_btn{
+    width: 105px;
+    height: 65px;
+    
+    margin: 10px;
+    margin-left: 15px;
+    background-color: #D84E55;
+    border-radius: 5px;
+}
+
+.bus_ticket_btn img{
+    width: 84px;
+    height: 20px;
+    margin: 8px;
+    
+   
+    
+    color: white;
+}
+
+.bus_ticket_btn p{
+    font-size: 14px;
+    color: #ffffff;
+    margin-left: 12px;
+   font-weight: 500;
+}
+
+.rail_ticket_btn{
+    width: 105px;
+    height: 75px;
+    
+    margin: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.rail_ticket_btn img{
+    width: 35px;
+    height: 20px;
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+
+.rail_ticket_btn p{
+    font-size: 15px;
+    color: #1d1d1d;
+    margin-left: 12px;
+    font-weight: 500;
+  
+}
+.rail_ticket_btn:hover{
+    background-color: #f0f0f0;
+}
+
+.container_right{
+    width: 620px;
+    height: 100px;
+    
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.help_button{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin-right: 20px;
+    display: flex;
+
+}
+.help_button:hover{
+    background-color: #f0f0f0;
+}
+
+.help_icon{
+    width: 22px;
+    height: 22px;
+  
+    margin-top: 5px;
+}
+.help_heading{
+    width: 70px;
+    height: 40px;
+   
+    font-size: 15px;
+    color: #1d1d1d;
+    margin-top: 5px;
+    
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.account_button{
+    width: 100px;
+    height: 40px;
+    margin-right: 10px;
+    text-align: center;
+    
+   
+}
+.account_button:hover{
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.main_container{
+    width: 1540px;
+    height: 3900px;
+}
+section{
+    width: 1528px;
+    height: 6150px;
+}
+
+.section1{
+    width: 1540px;
+    height: 540px;
+    border: 1px solid #D84E55;
+    background-image: url(../images/WebHomeBanner1.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+.section1 h1{
+    font-size: 32px;
+    margin-top: 50px;
+    margin-left: 450px;
+    color: #ffffff  ;
+}
+
+.input_information{
+    width: 1540px;
+    height: 115px;
+    
+    margin-top: 40px;
+    position: relative;
+}
+
+.input_information_container{
+    width: 995px;
+    height: 114px;
+    border-radius: 10px;
+    margin: auto;
+    display: flex;
+}   
+.from_container{
+    width: 270px;
+    height: 113px;
+    border-radius: 10px;
+    border-right: 1px solid rgba(0,0,0, 0.2);
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.from_container i{
+   
+    margin-top: 50px;
+    margin-left: 30px;
+
+}
+.fa-solid .fa-train{
+    width: 24px;
+    height: 24px;
+}
+.from_container input{
+    width: 200px;
+    height: 113px;
+    border: none;
+    margin-left: 10px;
+}
+
+.from_container input:focus{
+    outline: none;
+}
+.from_container input::placeholder{
+    font-size: 12px;
+    color: black;
+    
+}
+
+.from_container button{
+    width: 100%;
+    height: 100%;
+    background-color: #D84E55;
+    color: #ffffff;
+    border: none;
+    border-radius: 0px 15x 1px 0px;
+    
+}
+
+.trending_offers{
+    width: 1520px;
+    height: 312px;
+    margin-bottom: 40px;
+    position: absolute;
+    top: 560px;
+    left: 0px;
+}
+
+.trending_offer_div{
+    width: 1200px;
+    height: 312px;
+    background-color: white;
+    border-radius: 30px;
+    margin: auto;
+   
+}  
+
+.trending_offer_div h3{
+    font-size: 32px;
+    padding: 15px;
+    color: #4a4a4a;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.offer_div{
+    width: 1200px;
+    height: 280px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.offer1{
+    width: 300px;
+    height: 170px;
+   
+    margin-left: 15px;
+    margin-top: 15px;
+    background-image: linear-gradient(71.04deg, rgb(12, 57, 139) -6.92%, rgb(62, 118, 216) 109.43%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.offer1_div_left{
+    width: 72px;
+    height: 136px;
+   
+    
+}
+
+.offer1_div_right{
+    width: 180px;
+    height: 136px;
+   
+}
+
+.offer_right_div1{
+    width: 42px;
+    height: 25px;
+   
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    font-size: 14px;
+    padding: 2px;
+    color: white;
+}
+
+.offer_right_div2{
+    width: 180px;
+    height: 50px;
+ 
+    margin-top: 3px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 3px;
+}
+
+.offer_right_div3{
+    width: 180px;
+    height: 16px;
+   
+    margin-top: 8px;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.offer_right_div4{
+    width: 180px;
+    height: 25px;
+  
+    margin-top: 5px;
+    display: flex;
+}
+
+.div4_div{
+    width: 52px;
+    height: 25px;
+    border: 1px dotted white;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    font-size: 12px;
+    padding: 4px 8px;
+    font-weight: 500;
+}
+
+.div4_div2{
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+}
+
+.government_buses{
+    width:  1230px;
+    height: 270px;
+    margin-top: 300px;
+    margin-left: 170px;
+}
+
+.govt_buses_header{
+    width: 1220px;
+    height: 50px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_heading{
+    width: 448px;
+    height: 50px;
+    font-size: 40px;
+    color: #1d1d1d;
+
+
+}
+
+.header_btn{
+    width: 125px;
+    height: 50px;
+    border: 1px solid rgba(0,0,0, 0.4);
+    border-radius: 15px;
+    padding: 10px 24px;
+    color: #1034d9;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+
+.govt_bus_detail{
+    width: 1220px;
+    height: 260px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.busdetail1{
+    width: 430px;
+    height: 198px;
+    border-radius: 20px;
+    margin-right: 15px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ position: relative;
+ overflow: hidden;
+
+}
+
+.busdetail_div1{
+    width: 430px;
+    height: 72px;
+    
+    padding: 16px;
+    display: flex ;
+    border-bottom: 1px solid rgba(0,0,0, 0.2);
+}
+
+.busdetailimg1{
+    width: 54px;
+    height: 54px;
+}
+
+.busdetailimg1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.busheadingdetail{
+    display: flex;
+}
+
+.busheading{
+    width: 263px;
+    height:  56px;
+   
+  
+}
+
+.busheading p{
+    font-size: 18px;
+    color: #6f6f6f;
+}
+
+.rating{
+    width: 54px;
+    height: 24px;
+    background-color: #007b2d;
+    border-radius: 10px;
+    padding: 2px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.rating i{
+    width: 14px;
+    height: 14px;
+    color: #ffffff;
+    
+
+}
+
+.innerdiv{
+    width: 430px;
+    height: 30px;
+    position: absolute;
+   
+    top: 180px;
+    left: 0px;
+    background-color: #fae9ea;
+    border-radius: 10px;
+}
+.innerdiv_content{
+    width: 390px;
+    height: 16px;
+    margin: auto;
+    
+    font-size: 12px;
+    font-weight: 600;
+}
+.busdetail_div2{
+    width: 430px;
+    height: 72px;
+    
+    padding: 16px;
+}
+
+.busdetail_div2_info{
+    width: 320px;
+    height: 40px;
+    
+    margin: 0px 64px;
+    text-align: center;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+
+.busdetail_div3{
+    width: 408px;
+    height: 24px;
+   
+    margin: auto;
+    background-color: #f2f2fd;
+    display: flex;
+    justify-content: center;
+}
+
+.busdetail_div3 img{
+    width: 25px;
+    height: 16px;
+    margin-top: 2px;
+    
+}
+.busdetail_div3 p{
+    margin-left: 15px;
+    font-size: 14px;
+    color: #1d1d1d;
+}
+
+.section3_train_ticket{
+    width: 1200px;
+    height: 2230px;
+   
+    margin: auto;
+}
+
+.section3_train_ticket_maindiv{
+    width: 1200px;
+    height: 626px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.train_ticket_maindiv_left{
+    width: 552px;
+    height: 626px;
+    
+}
+
+.train_ticket_maindiv_left h2{
+    width: 552px;
+    height: 180px;
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.train_ticket_btn{
+    width: 224px;
+    height: 60px;
+   
+    padding: 10px 10px 0px 10px;
+    
+    border-bottom: 3px solid #D84E55;
+    display: flex;
+    justify-content: center;
+    
+}
+.train_ticket_btn img{
+    width: 50px;
+    height: 28px;
+}
+
+.train_ticket_btn p{
+    font-size: 16px;
+    color: #d84e55;
+    font-weight: 800;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.train_ticket_maindiv_left_info{
+    width: 550px;
+    height: 70px;
+    margin-top: 25px;
+    word-spacing: 1px;
+    font-size: 16px;
+    color: #1d1d1d;
+}
+
+.info_point{
+    width: 552px;
+    height: 32px;
+    
+    display: flex;
+
+}
+
+.info_point img{
+    width: 32px;
+    height: 32px;
+}
+
+.info_point p{
+    width: 300px;
+    height: 17px;
+   
+    margin-left: 25px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.book_ticket_btn{
+    width: 224px;
+    height: 55px;
+    background-color:#D84E55;
+    border-radius: 10px;
+    margin-top: 70px;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+.enjoy_the_App{
+    width: 1200px;
+    height: 418px;
+    
+    margin-top: 130px;
+    background-image: url(../images/appInstallbg\ \(1\).svg);
+    padding: 32px;
+}
+
+.enjoy_the_app_heading{
+    width: 1136px;
+    height: 50px;
+        color: #ffffff;
+    font-size: 40px;
+}
+
+.app_install_container{
+    width: 1136px;
+    height: 274px;
+    
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+.app_install_container1{
+    width: 376px;
+    height: 275px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 35px;
+}
+.installer_cont1_div1{
+    width: 312px;
+    height: 22px;
+        display: flex;
+}
+
+.installer_cont1_div1 p{
+    font-size: 18px;
+    color: #4a4a4a;
+    margin-left: 15px;
+}
+
+.installer_setions{
+    width: 312px;
+    height: 74px;
+    border: 1px solid white;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.line_installer{
+    width: 2px;
+    height: 74px;
+    border: 2px solid #c1c1c1;
+}
+
+.section_intsall_container2{
+    width: 333px;
+    height: 155px;
+    
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.install_container2_div1{
+    width: 106px;
+    height: 140px;
+    
+}
+
+.installer_sec1{
+    width: 120px;
+    height: 74px;
+    
+}
+
+.app_install_container2{
+    width: 333px;
+    height: 274px;
+    
+    margin-left: 25px;
+}
+
+.installer_sec1_div1{
+    width: 120px;
+    height: 24px;
+    color: #4a4a4a;
+    font-size: 20px;
+
+}
+
+.installer_sec1 p{
+    font-size: 13px;
+    color: #4a4a4a;
+    margin-top: 2px;
+    
+}
+
+.install_container2_div1 p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.install_container2_div2{
+    width: 147px;
+    height: 155px;
+   
+}
+
+.install_container2_div2 p{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+.prime_option{
+    width: 1200px;
+    height: 552px;
+    
+    margin-top: 105px;
+    display: flex;
+}
+
+.prime_option_left{
+    width: 800px;
+    height: 552px;
+   
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.prime_option_left img{
+    border-radius: 15px 15px 15px 15px;
+   
+}
+
+.prime_option_right{
+    width: 430px;
+    height: 552px;
+    padding: 80px 42px;
+    background-color: #233058;
+    border-radius: 45px;
+    position: absolute;
+    left: 930px;
+    overflow: hidden;
+}
+
+.prime_option_right_div1{
+    width: 316px;
+    height: 88px;
+   
+    display: flex;
+}
+
+.timer_img{
+    width: 60px;
+    height: 60px;
+
+}
+
+.timer_img i{
+    font-size: 45px;
+    color: white;
+    margin-top: 15px;
+}
+
+.timer_info{
+    width: 232px;
+    height: 88px;
+    margin-left: 15px;
+}
+
+.timer_info h2{
+    color: white;
+    font-size: 25px;
+
+}
+
+.timer_info p{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+
+.global_presence{
+    width: 1200px;
+    height: 420px;
+    
+    margin-top: 170px;
+    
+}
+
+.global_presence h2{
+    font-size: 40px;
+    margin-bottom: 32px;
+    color: #1d1d1d;
+    font-weight: 500;
+}
+
+.countries{
+    width: 1200px;
+    height: 200px;
+    
+    display: flex;
+    margin-top: 35px;
+    
+}
+
+.country1{
+    width: 173px;
+    height: 184px;
+    
+    margin-left: 18px;
+    text-align: center;
+    font-size: 22px;
+    color: #1d1d1d;
+    font-weight: 700;
+}
+
+.country1 p:hover{
+    background-color: rgba(0,0,0, 0.2);
+    cursor: pointer;
+    border-radius: 10px;
+   
+}
+
+.country1 img{
+    width: 128px;
+    height: 128px;
+}
+
+.book_bus_ticket_online{
+    width: 1200px;
+    height: 980px;
+   
+}
+
+.book_bus_ticket_online h2{
+    font-size: 40px;
+    color: #1d1d1d;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.book_bus_ticket_online p{
+    font-size: 18px;
+    font-family: Arial;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin: 16px 0px;
+    line-height: 2rem;
+    color: #3e3e52;
+}
+
+.deals{
+    width: 1200px;
+    height: 360px;
+   
+    margin-top: 120px;
+}
+
+.deals h2{
+    font-size: 40px;
+    margin: 16px 0px;
+    color: #1d1d1d;
+}
+
+.deals p{
+    font-size: 16px;
+    color: #4a4a4a;
+    font-weight: 500;
+    word-spacing: 2px;
+}
+
+.deals_container{
+    width: 1200px;
+    height: 166px;
+    border: 1px solid #6f6f6f ;
+    border-radius: 15px;
+    margin: 24px 0px;
+    padding: 28px 24px;
+    display: flex;
+}
+
+
+.deals_container img{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.deals_content{
+    width: 882px;
+    height: 108px;
+    
+    margin-left: 25px;
+}
+
+
+.deals_content h2{
+    font-size: 30px;
+    color: #4a4a4a;
+}
+
+.deals_content p{
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+.book_button{
+    width: 133px;
+    height: 48px;
+    background-color: #D84E55;
+    border-radius: 10px;
+    margin: 24px 24px 0px 0px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+.FAQ{
+    width: 1200px;
+    height: 952px;
+    
+}
+
+.FAQ h2{
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #1d1d1d;
+    font-weight: 500;
+}
+
+.FAQ_nav{
+    width: 1200px;
+    height: 50px;
+    
+    display: flex;
+}
+
+.FAQ_nav1{
+    width: 78px;
+    height: 50px;
+    
+    padding: 12px 8px;
+    color: #1d1d1d;
+    font-size: 16px;
+}
+
+.question_Section{
+    width: 1200px;
+    height: 77px;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 28px 24px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 1px;
+}
+
+.question_Section p{
+    font-size: 14px;
+    color: #1d1d1d;
+    font-weight: 700;
+}
+
+.question_Section i{
+    font-size: 20px;
+}
+
+.arrow_btn_div{
+    width: 1200px;
+    height: 56px;
+    color: #4a4a4a;
+    margin-top: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+
+.back_to_top_btn{
+    width: 40px;
+    height: 50px;
+    border: 1px solid #4a4a4a;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.back_to_top_btn i{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+footer{
+    width: 1527px;
+    height: 810px;
+    background-color: #f7f7f7;
+    
+}
+
+.footer_div{
+    width: 1200px;
+    height: 810px;
+   
+    margin: auto;
+    padding: 48px 0px 32px;
+}
+
+
+.interlinksec{
+    width: 1200px;
+    height: 90px;
+    
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c1c1c1;
+}
+
+.interlinksec h3{
+    width: 184px;
+    height: 56px;
+    font-size: 18px;
+    color: #3e3e52;
+    margin-top: 15px;
+    font-weight: 600;
+    margin-bottom: 55px;
+}
+
+.interlinksec i{
+    padding: 15px;
+    font-size: 25px;
+    color: #3e3e52;
+    margin-bottom: 55px;
+
+}
+
+.footer_links{
+    width: 1200px;
+    height: 300px;
+    
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.footer_links_div1{
+    width: 272px;
+    height: 300px;
+    
+}
+
+.footer_links_div1 img{
+    width: 100px;
+    height: 66px;
+}
+
+.footerdiv1_text{
+    width: 272px;
+    height: 140px;
+    margin-top: 10px;
+   
+    font-size: 14px;
+    color: #3e3e52;
+}
+
+.footer_links_div2{
+    width: 135px;
+    height: 300px;
+    
+}
+
+.footer_links_div2 h3{
+    font-size: 18px;
+    color: #1d1d1d;
+}
+
+.footer_links_div2 ul{
+    list-style: none;
+    margin-top: 10px;
+
+}
+
+
+.footer_links_div2 li{
+    font-size: 14px;
+    color: #3e3e52;
+    padding: 5px;
+}
+
+.copyright_Section{
+    width: 1200px;
+    height: 24px;
+    
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright_Section p{
+    width: 340px;
+    height: 24px;
+    font-size: 14px;
+    color: #3e3e52;
+}
+
+.soical_links{
+    width: 168px;
+    height: 24px;
+   
+}
+
+.soical_links img{
+    margin-right: 12px;
+}
+
